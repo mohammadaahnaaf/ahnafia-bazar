@@ -44,7 +44,17 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "author": "Ahnaf",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadaahnaaf/ahnafia-bazar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohammadaahnaaf/ahnafia-bazar/issues"
+  },
+  "homepage": "https://github.com/mohammadaahnaaf/ahnafia-bazar#readme"
 }
