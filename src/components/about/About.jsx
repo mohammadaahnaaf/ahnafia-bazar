@@ -6,7 +6,7 @@ function About() {
     const classes = styles();
     return (
         <div className={classes.root}>
-        <Grid container>
+        <div className={classes.main} container>
             <Grid item>
                <Typography variant='h2' color='secondary' className={classes.title}>About Us</Typography>
             </Grid>
@@ -15,7 +15,7 @@ function About() {
                  sourcecode available <a href="https://github.com/mohammadaahnaaf/ahnafia-bazar.git">Github</a>
                </Typography>
             </Grid>
-        </Grid>
+        </div>
         </div>
     )
 }

@@ -15,6 +15,9 @@ const styles = makeStyles(() => ({
     des: {
         fontFamily: ['Julius Sans One', 'sans-serif'],
         fontSize: '20px'
+    },
+    main: {
+        paddingTop: 20
     }
 }));
 
