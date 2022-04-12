@@ -4,7 +4,7 @@ const styles = makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   content: {
     flexGrow: 1,
-    backgroundColor: 'grey',
+    backgroundColor: '#e0f7fa',
     padding: theme.spacing(3),
   },
   root: {

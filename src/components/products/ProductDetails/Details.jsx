@@ -3,10 +3,10 @@ import styles from './styles';
 
 function Details() {
     const classes = styles();
-    
+
     return (
-        <div >
-            
+        <div className={classes.root}>
+
         </div>
     )
 }

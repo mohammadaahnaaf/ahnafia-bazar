@@ -4,7 +4,7 @@ const styles = makeStyles(() => ({
     main: {
         
         display: 'flex',
-        background: 'grey',
+        background: '#e0f7fa',
         minHeight: '150vh'
     },
     header: {

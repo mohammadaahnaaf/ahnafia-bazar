@@ -78,32 +78,39 @@ const App = () => {
       <div className={classes.main}>
         <CssBaseline />
         <Appbar totalItems={cart.total_items} handleDrawerToggle={handleDrawerToggle} />
-      
+
         <Switch>
+
           <Route exact path="/">
-          <Grid container   direction="column" justifyContent="center" alignItems="stretch">
-            <Grid iitem>
-              <Header />
+            <Grid container direction="column" justifyContent="center" alignItems="stretch">
+              <Grid iitem>
+                <Header />
+              </Grid>
+              <Grid item>
+                <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
+              </Grid>
             </Grid>
-            <Grid item>
-              <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
-            </Grid>
-          </Grid>
-         </Route>
+          </Route>
+
           <Route exact path="/cart">
             <Cart cart={cart} onUpdateCartQty={handleUpdateCartQty} onRemoveFromCart={handleRemoveFromCart} onEmptyCart={handleEmptyCart} />
           </Route>
           <Route path="/checkout" exact>
             <Checkout cart={cart} order={order} onCaptureCheckout={handleCaptureCheckout} error={errorMessage} />
           </Route>
+        
         </Switch>
+
         <Switch>
-        <Route exact path="/about">
+          <Route exact path="/about">
             <About />
           </Route>
         </Switch>
+        
       </div>
+
       <Footer />
+
     </Router>
   );
 };
