@@ -9,7 +9,7 @@ function Footer() {
       <Typography className={classes.text}>
         This Site Is Made By
       </Typography>
-      <a className={classes.text} href='www.ahnafyaes.tech'>{' _'}Ahnafia</a>
+      <a className={classes.text} href='www.ahnafyaes.tech'>{''}Ahnafia</a>
     </footer>
   )
 }
