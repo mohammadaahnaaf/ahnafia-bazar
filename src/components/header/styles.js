@@ -7,11 +7,12 @@ const styles = makeStyles(() => ({
         flexGrow: 1,
         backgroundImage: `url(${image})`,
         justifyContent: 'center',
+        // backgroundSize: '100%',
         alignItems: 'center',
         height: '100vh',
         width: 'auto',
         // background: 'black',
-        backdropFilter: `blur(${50})`,
+        backdropFilter: `blur(${10})`,
         paddingTop: '8%',
 
 
@@ -19,14 +20,17 @@ const styles = makeStyles(() => ({
     header: {
         color: 'green',
         textAlign: 'center',
-        // fontSize: '60px',
+        // fontSize: { xs: '20px', md: '60px' },
         fontFamily: ['Julius Sans One', 'sans-serif']
     },
     offer: {
         color: 'yellow',
         textAlign: 'center',
-        // fontSize: '80px',
+        // fontSize: '10px',
         fontFamily: ['Julius Sans One', 'sans-serif']
+    },
+    small: {
+        paddingTop: '10%'
     }
 }));
 

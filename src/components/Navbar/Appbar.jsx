@@ -38,9 +38,9 @@ const Appbar = ({ totalItems }) => {
           <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
             <img src={logo} alt="ahnafia logo" height="30px" className={classes.image} /> Ahnafia Bazar
           </Typography>
-          <Hidden only={['sm', 'xs', 'md']}>
+          {/* <Hidden only={['sm', 'xs', 'md']}>
           <Typography component={Link} variant='h6' className={classes.about} to='/about'>About</Typography>
-          </Hidden>
+          </Hidden> */}
           <div className={classes.grow} />
           <Hidden only={['sm', 'xs', 'md']}>
           <div className={classes.search}>
